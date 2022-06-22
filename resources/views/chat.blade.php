@@ -25,7 +25,7 @@
 				 <li class="list-group-item">Chat Room</li>
 				<ul class="list-group ">
 			 
-			  <message v-for='value in chat.message' :key='value.index'>
+			  <message v-for='value in chat.message' :key='value.index' color='success'>
 			  	
 			  	@{{value}}
 			  </message>
